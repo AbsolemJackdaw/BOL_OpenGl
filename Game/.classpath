@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/OSGi%Minimum-1.2"/>
+	<classpathentry kind="lib" path="C:/Users/Axel/Desktop/githome/BrimOfLife_OpenGl/Libs/jinput.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/Axel/Desktop/githome/BrimOfLife_OpenGl/Game/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Axel/Desktop/githome/BrimOfLife_OpenGl/Libs/jl1.0.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/Axel/Desktop/githome/BrimOfLife_OpenGl/Game/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Axel/Desktop/githome/BrimOfLife_OpenGl/Libs/json-simple-1.1.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/Axel/Desktop/githome/BrimOfLife_OpenGl/Game/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Axel/Desktop/githome/BrimOfLife_OpenGl/Libs/lwjgl.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/Axel/Desktop/githome/BrimOfLife_OpenGl/Game/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Axel/Desktop/githome/BrimOfLife_OpenGl/Libs/mp3spi1.9.5.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/Axel/Desktop/githome/BrimOfLife_OpenGl/Game/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Axel/Desktop/githome/BrimOfLife_OpenGl/Libs/tritonus_share.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/Axel/Desktop/githome/BrimOfLife_OpenGl/Game/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
