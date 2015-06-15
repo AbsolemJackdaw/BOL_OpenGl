@@ -1,21 +1,21 @@
-package Utils;
+package utils;
 
 public class Log {
 
 
-	public static String out(String s){
+	public static void out(String s){
 		String ss = "[OUT]" + s;
-		return ss;
+		System.out.println(ss);
 	}
-	
-	public static String err(String s){
+
+	public static void err(String s){
 		String ss = "[ERROR]" + s;
-		return ss;
+		System.out.println(ss);
 	}
-	
-	public static String info(String s){
+
+	public static void info(String s){
 		String ss = "[INFO]" + s;
-		return ss;
+		System.out.println(ss);
 	}
-	
+
 }

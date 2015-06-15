@@ -1,4 +1,4 @@
-package base;
+package engine;
 
 import static org.lwjgl.glfw.GLFW.*;
 import static org.lwjgl.opengl.GL11.*;
@@ -8,14 +8,14 @@ import game.Game;
 import java.nio.ByteBuffer;
 
 import org.lwjgl.glfw.Callbacks;
-import org.lwjgl.glfw.GLFW;
 import org.lwjgl.glfw.GLFWErrorCallback;
 import org.lwjgl.glfw.GLFWKeyCallback;
 import org.lwjgl.glfw.GLFWvidmode;
 import org.lwjgl.opengl.GLContext;
 import org.lwjgl.system.MemoryUtil;
 
-import Utils.Log;
+import utils.Log;
+
 
 
 public class Main {
@@ -31,15 +31,25 @@ public class Main {
 
 		Game game = new Game();
 
+		float now, last, delta;
+		last = 0;
+
+		//initialize, load
+		game.init(); 
+		
+		//game loop
 		while(glfwWindowShouldClose(window.getWindowID()) == GL_FALSE) {
 
+			now = (float) glfwGetTime();
+			delta = now - last;
+			last = now;
 
-			game.update();
-			game.render();
+			game.update(delta);//UPDATING
+
+			game.render(delta);//RENDERING
+
 			glfwPollEvents();
 			glfwSwapBuffers(window.getWindowID());
-
-
 
 		}
 
@@ -100,6 +110,8 @@ public class Main {
 	}
 
 	public static void onKeyInvoke(long window, int key, int scancode, int action, int mods) {
-
+		KeyHandler.setKey(key, action);
 	}
+	
+	
 }
